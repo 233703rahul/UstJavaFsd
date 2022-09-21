@@ -1,4 +1,5 @@
- package aa;
+package Hackathon1;
+
 class Bank
 {
 	public void getBalance()
@@ -10,24 +11,24 @@ class BankA extends Bank
 {
 	public void getBalance()
 	{
-		System.out.println("Bal=100");
+		System.out.println("Bal=$100");
 	}
 }
 class BankB extends Bank
 {
 	public void getBalance()
 	{
-		System.out.println("Bal=200");
+		System.out.println("Bal=$150");
 	}
 }
 class BankC extends Bank
 {
 	public void getBalance()
 	{
-		System.out.println("Bal=300");
+		System.out.println("Bal=$200");
 	}
 }
-public class inheritance7 {
+public class BankInheritance {
 	public static void main (String[] args)
 	{
 		BankA a=new BankA();
